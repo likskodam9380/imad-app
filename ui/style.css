@@ -20,3 +20,11 @@ body {
     height: 200px;
 }
 
+ .container{
+       font-family: arial;
+       width: 80%;
+       color: purple;
+       background-color: grey;
+       margin: auto;
+       padding: 20%;
+ }
