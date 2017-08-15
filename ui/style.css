@@ -22,9 +22,9 @@ body {
 
  .container{
        font-family: arial;
-       width: 80%;
+       max-width: 800px;
        color: purple;
        background-color: grey;
        margin: auto;
-       padding: 20%;
+       padding: 20px;
  }
