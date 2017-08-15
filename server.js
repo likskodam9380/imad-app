@@ -28,7 +28,7 @@ var html Template ={
    <!doctype html>
 <html>
     <head>
-<title>My Home Page  </title>
+<title>${title} </title>
 <meta name="viewport" content="width-device, initial-scale-1" />
 
 </head>
@@ -39,15 +39,9 @@ var html Template ={
     <hr> 
     </div>
     
-<h1>Likita</h1>
-<p>This is my web page developed by Likita This is my web page developed by Likita
-This is my web page developed by LikitaThis is my web page developed by Likita</p>
+<h1>${heading}</h1>
 
-<p>This is my web page developed by Likita This is my web page developed by Likita
-This is my web page developed by Likita This is my web page developed by Likita</p>
-
-<p>This is my web page developed by Likita This is my web page developed by Likita
-This is my web page developed by Likita This is my web page developed by Likita</p>
+${content}
 </div>
 </body>
 </html>
