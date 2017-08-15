@@ -4,6 +4,56 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+var articleone = {
+    heading: 'Likita',
+    title: 'Article one',
+    content: 
+    ^<p>
+    This is my web page developed by Likita This is my web page developed by Likita
+    This is my web page developed by LikitaThis is my web page developed by Likita
+    </p>
+    
+    <p>
+    This is my web page developed by Likita This is my web page developed by Likita
+    This is my web page developed by Likita This is my web page developed by Likita
+    </p>
+   
+    <p>
+    This is my web page developed by Likita This is my web page developed by Likita
+    This is my web page developed by Likita This is my web page developed by Likita
+    </p>^
+};
+
+var html Template ={
+   <!doctype html>
+<html>
+    <head>
+<title>My Home Page  </title>
+<meta name="viewport" content="width-device, initial-scale-1" />
+
+</head>
+<body>
+    <div class="container">
+    <div>
+    <a href="/">Home</a>
+    <hr> 
+    </div>
+    
+<h1>Likita</h1>
+<p>This is my web page developed by Likita This is my web page developed by Likita
+This is my web page developed by LikitaThis is my web page developed by Likita</p>
+
+<p>This is my web page developed by Likita This is my web page developed by Likita
+This is my web page developed by Likita This is my web page developed by Likita</p>
+
+<p>This is my web page developed by Likita This is my web page developed by Likita
+This is my web page developed by Likita This is my web page developed by Likita</p>
+</div>
+</body>
+</html>
+ 
+    
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
