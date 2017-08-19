@@ -21,7 +21,7 @@ var articleone = {
     <p>
     This is my web page developed by Likita This is my web page developed by Likita
     This is my web page developed by Likita This is my web page developed by Likita
-    </p>`,
+    </p>`
 };
 function createTemplate (data)
 {
