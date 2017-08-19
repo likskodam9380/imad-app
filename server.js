@@ -4,8 +4,8 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-/*var articles : {
-var articleone = {
+var articles : {
+ articleone = {
     heading: 'Likita',
     title: 'Article one',
     content: 
@@ -24,7 +24,7 @@ var articleone = {
     This is my web page developed by Likita This is my web page developed by Likita
     </p>`
 } ,
-var articletwo = {
+articletwo = {
     heading: '<h1>Hi! this is Likita...</h1>',
     title: 'Article two',
     content: 
@@ -32,7 +32,7 @@ var articletwo = {
 This is my second web page developed by Likita </p>
 `
 } ,
-var articlethree = {
+ articlethree = {
     heading: '<h1>Hello this my next web page</h1>',
     title: 'Article three',
     content: 
@@ -70,7 +70,7 @@ ${content}
 </html>
 `;
 return htmlTemplate;
-}*/
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
