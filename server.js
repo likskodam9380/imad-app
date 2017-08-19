@@ -4,8 +4,8 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articles : {
- articleone = {
+var articles = {
+ articleone: {
     heading: 'Likita',
     title: 'Article one',
     content: 
@@ -24,7 +24,7 @@ var articles : {
     This is my web page developed by Likita This is my web page developed by Likita
     </p>`
 } ,
-articletwo = {
+articletwo : {
     heading: '<h1>Hi! this is Likita...</h1>',
     title: 'Article two',
     content: 
@@ -32,7 +32,7 @@ articletwo = {
 This is my second web page developed by Likita </p>
 `
 } ,
- articlethree = {
+ articlethree : {
     heading: '<h1>Hello this my next web page</h1>',
     title: 'Article three',
     content: 
