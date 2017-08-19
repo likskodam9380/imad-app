@@ -4,7 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+var articles : {
 var articleone = {
     heading: 'Likita',
     title: 'Article one',
@@ -23,7 +23,22 @@ var articleone = {
     This is my web page developed by Likita This is my web page developed by Likita
     This is my web page developed by Likita This is my web page developed by Likita
     </p>`
-   
+} ,
+var articletwo = {
+    heading: '<h1>Hi! this is Likita...</h1>',
+    title: 'Article two',
+    content: 
+    `<p>This is my second web page developed by Likita 
+This is my second web page developed by Likita </p>
+`
+} ,
+var articlethree = {
+    heading: '<h1>Hello this my next web page</h1>',
+    title: 'Article three',
+    content: 
+    `<p>This is my third web page developed by Likita 
+This is my third web page developed by Likita </p>`
+} 
 };
 
 function createTemplate (data)
