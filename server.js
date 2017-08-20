@@ -40,11 +40,10 @@ This is my second web page developed by Likita </p>
 This is my third web page developed by Likita </p>`
 },
   'article-four' : {
-    heading: '<h1>Hello this my next web page</h1>',
+    heading: '<h2>Article four</h2>',
     title: 'Article four',
-    content: 
-    `<p>This is fourth articles..  </p>`
-}
+    content: '<p>This is fourth articles...</p>'
+  }
 };
 
 function createTemplate (data)
