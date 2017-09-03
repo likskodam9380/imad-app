@@ -1,15 +1,8 @@
 console.log('Loaded!');
-//chage the text of the maintext div
-var element=document.getElementById('maintext');
-element.innerHTML='This is my webpage';
-
-var img = document.getElementById('madi');
-var marginLeft=0;
-function moveRight(){
-    marginLeft=marginLeft + 1;
-    img.style.marginLeft=marginLeft + 'px';
-    }
-   img.Onclick=function()
-{
-    var interval = setInterval (moveRight, 100);
+var button = document.getElementById('counter');
+var counter=0;
+button.Onclick=function(){
+    counter=counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML=counter.toString();
 };
