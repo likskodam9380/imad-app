@@ -21,7 +21,7 @@ request.send(null);
 };
 
 var nameInput = document.getElementById('name');
-var names = nameInput.value;
+var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick=function (){
   
